@@ -1,0 +1,26 @@
+{
+  "name": "enzyme-light",
+  "version": "0.1.0",
+  "description": "Simplified version of enzyme build on top of react-test-renderer",
+  "main": "index.js",
+  "repository": "git@github.com:mucsi96/enzyme-light.git",
+  "author": "Igor Bari <mucsi96@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest"
+  },
+  "dependencies": {
+    "react-test-renderer": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-test-renderer": "^18.0.0",
+    "@vitejs/plugin-react": "^2.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.2",
+    "vitest": "^0.18.1"
+  }
+}
